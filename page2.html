@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+    <style>
+      /* Style for navbar-1  */
+      #navbar-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f5f5f5;
+      }
+
+      .logo {
+        height: 40px;
+        width: 40px;
+      }
+
+      .margin {
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+
+      #links a {
+        text-decoration: none;
+        color: rgb(40, 40, 40);
+      }
+
+      /* Style for navbar-2  */
+
+      #navbar-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .logo-2 {
+        height: 20px;
+        width: 20px;
+        margin-left: 10px;
+      }
+
+      #navbar-2-logo,
+      #navbar-2-links,
+      #search-links {
+        width: 33%;
+      }
+
+      #navbar-2-links a {
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: large;
+      }
+
+      #search-links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      #search {
+        height: 30px;
+        border-radius: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 15px;
+      }
+
+      /* Navbar-3 */
+      
+      #navbar-3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f5f5f5;
+        padding: 10px;
+      }
+      #navbar-3 h4,
+      #navbar-3 h6 {
+        margin: 0;
+      }
+
+      /* Image cards */
+
+      #image-cards {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #image-cards img {
+        width: 15%;
+        border-radius: 15px;
+        border: 1px solid gray;
+      }
+
+      /* Image cards */
+
+      #image-cards {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #image-cards img {
+        width: 15%;
+        border-radius: 15px;
+        border: 1px solid gray;
+        margin-top: 30px;
+      }
+
+      /* Additional text */
+
+      #additional-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+      }
+
+      .small-text,
+      .big-text {
+        margin: 0;
+        padding: 5px;
+      }
+
+      .big-text {
+        font-size: 50px;
+        font-weight: bold;
+      }
+
+      #additional-text button {
+        border-radius: 20px;
+        margin-top: 15px;
+        padding: 10px 20px 10px 20px;
+        font-size: 15px;
+        background-color: rgb(20, 20, 20);
+        color: white;
+      }
+
+      #slider-frame{
+        margin-top: 100px;
+      }
+
+      .slide-images{
+        margin-top: 50px;
+      }
+
+      #footer-box-1{
+        width: 70%;
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      /* footer box - 2 */
+      #footer-box-2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: black;
+        color: white;
+      }
+
+      .box-1 {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .box-2 img {
+        margin: 0 10px;
+        width: 30px;
+      }
+
+      .grey {
+        font-size: small;
+        color: gray;
+      }
+
+      .box-3 {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        background-color: black;
+        padding: 0 40px;
+      }
+
+      .box-3 div {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .box-3 div img {
+        width: 20px;
+        height: 20px;
+  
+      }
+
+      .container-1, 
+      .container-2 {
+        width: 20px;
+      }
+
+      .box-3-text{ color: gray;
+        font-size: small;
+
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar - 1 -->
+    <div id="navbar-1" class="margin">
+      <img src="images/jordanlogo.jpg" class="logo" />
+
+      <div id="links">
+        <a href="">Help |</a>
+        <a href="">Join Us |</a>
+        <a href="">Sign In</a>
+      </div>
+    </div>
+
+    <!-- Navbar-2 -->
+
+    <div id="navbar-2" class="margin">
+      <div id="navbar-2-logo">
+        <img src="images/swoosh.jpg" class="logo" />
+      </div>
+      <div id="navbar-2-links">
+        <a href="">Men</a>
+        <a href="">Women</a>
+        <a href="">Kids</a>
+        <a href="">Sale</a>
+        <a href="">SNKRS</a>
+      </div>
+      <div id="search-links">
+        <input type="text" id="search" placeholder="search" />
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png"
+          class="logo-2"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/1656/1656850.png"
+          class="logo-2"
+        />
+      </div>
+    </div>
+
+    <!-- Navbar-3 -->
+
+    <div id="navbar-3" class="margin">
+      <h4>Adidas Slides</h4>
+    </div>
+
+    <!-- Image Cards -->
+
+    <div id="image-cards" class="margin">
+      <img src="https://i.ebayimg.com/images/g/0-UAAOSww31jvONL/s-l400.png" />
+      <img src="https://i.ebayimg.com/images/g/tYsAAOSwznZhvCVd/s-l400.png" />
+      <img src="https://i.ebayimg.com/images/g/v~YAAOSwm5FifHjP/s-l400.png" />
+      <img src="https://cdn.mall.adeptmind.ai/https%3A%2F%2Fjcpenney.scene7.com%2Fis%2Fimage%2FJCPenney%2FDP1118202207114689M_medium.jpg" />
+      <img src="https://static.nike.com/a/images/t_default/6367dc3f-c550-4e90-8bfb-d7083546846c/offcourt-adjust-slides-0lvVgp.png" />
+    </div>
+
+    <!-- Image Cards - 2 -->
+
+    <div id="image-cards" class="margin">
+       <img src="https://cdn.shopify.com/s/files/1/0585/2237/0071/products/SITEIMAGES_43_400x.png?v=1669204237" />
+        <img src="https://cdn.shopify.com/s/files/1/0408/9187/5490/products/image_06ee2b28-679f-44bb-aa1e-66341a65195e_400x.webp?v=1653102412" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ57gp4tbJQpHHN0S663b4v9uq7bPmisg9og&usqp=CAU" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkX-FSv469xVKzqIa1X8PF1fhMpgmIcot-tg&usqp=CAU" />
+        <img src="https://en-ae.sssports.com/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw3e363cb2/sss/SSS2/A/D/F/3/5/SSS2_ADF35565_4059808027944_2.jpg?sw=400&sh=400&sm=fit   " />
+        </div>
+
+        <!-- Image Cards - 2 -->
+
+    <div id="image-cards" class="margin">
+        <img src="https://cdn.shopify.com/s/files/1/0115/4167/6113/products/image_354355bd-9d35-46dd-8fae-29cd210461fe_400x.png?v=1659078297" />
+         <img src="https://cdn.modesens.com/media/144538604?w=400" />
+         <img src="https://www.futurefeet.co.nz/user/images/7631_400_400.jpg?t=1909101317" />
+         <img src="https://i.ebayimg.com/images/g/pksAAOSwIytgQdzs/s-l400.png" />
+         <img src="https://i.ebayimg.com/00/s/ODQwWDg0MA==/z/qOYAAOSwIytgQd40/$_1.PNG" />
+         </div>
+
+         <!-- Footer box -->
+
+  <div id="footer-box-1">
+    <div>
+      <h4>Mens Shoes</h4>
+      <p>Mens Lifestyle</p>
+      <p>All Mens Shoes</p>
+      <p>Mens running Shoes</p>
+      <p>Mens Football shoes</p>
+    </div>
+    <div>
+      <h4>Womens shoes</h4>
+      <p>Womens Lifestyle</p>
+      <p>All Womens Shoes</p>
+      <p>Womens running Shoes</p>
+      <p>womens Football shoes</p>
+    </div>
+    <div>
+      <h4>Kids shoes</h4>
+      <p>Kids Lifestyle</p>
+      <p>All Kids Shoes</p>
+      <p>Kids running Shoes</p>
+      <p>Kids Football shoes</p>
+    </div>
+    <div><h4>Adventure shoes</h4>
+      <p>Outdoor Lifestyle</p>
+      <p>Hiking Shoes</p>
+      <p>Trek Shoes</p>
+      <p>Climbing shoes</p>
+    </div>
+  </div>
+
+  <!-- Footer box - 2 -->
+
+  <div id="footer-box-2">
+    <div class="box-1">
+      <div>
+        <h4>Find a store</h4>
+        <h4>Become a member</h4>
+        <h4>Sign up</h4>
+        <h4>Student Discount</h4>
+        <h4>Send Us Feedback</h4>
+      </div>
+      <div>
+        <h4>Get Help</h4>
+      <p class="grey">Order Status</p>
+      <p class="grey">Delivery</p>
+      <p class="grey">Returns</p>
+      <p class="grey">Payment Option</p>
+      <p class="grey">Contact Us</p>
+      </div>
+      <div>
+        <h4>About Stripes&Swoosh</h4>
+      <p class="grey">News</p>
+      <p class="grey">Careers</p>
+      <p class="grey">Investors</p>
+      <p class="grey">Sustainability</p>
+    </div>
+    </div>
+    <div class="box-2">
+      <img src="https://cdn-icons-png.flaticon.com/128/145/145802.png" alt="facebook" />
+      <img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png" alt="instagram" />
+      <img src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png" alt="twitter" />
+  </div>
+  </div>
+  <div class="box-3">
+    <div class="container-1">
+      <img src="https://cdn-icons-png.flaticon.com/128/684/684908.png" 
+      alt="pin-location" />
+      <p class="box-3-text">Philippines</p>
+      <p class="box-3-text">Stripes&Swoosh, Inc. All Rights Reserved</p>
+    </div>
+    <div class="container-2">
+      <p class="box-3-text">Guides</p>
+      <p class="box-3-text">Terms of Service</p>
+      <p class="box-3-text">Privacy Policy</p>
+      <p class="box-3-text">Terms of sale</p>
+    </div>
+  </div>
+  </body>
+</html>
+
+<!-- <html>
+  <head>
+       <title>
+
+       </title>
+  </head>
+  <body>
+    
+  </body>
+</html> -->
